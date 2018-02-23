@@ -11,3 +11,17 @@ function arttir() {
 	document.getElementById('test').value = x;
 
 }
+
+function eksilt() {
+
+	var q = document.getElementById('test').value;
+
+	var t = parseInt(q, 10);
+
+	q = isNaN(q) ? 0 : q;
+
+	q--;
+
+	document.getElementById('test').value = q;
+
+}
