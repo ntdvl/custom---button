@@ -8,6 +8,6 @@ function arttir() {
 
 	x++;
 
-	x = document.getElementById('test').value;
+	document.getElementById('test').value = x;
 
 }
